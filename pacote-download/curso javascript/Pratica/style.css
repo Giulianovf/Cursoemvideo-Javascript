@@ -1,0 +1,25 @@
+body{
+    background: rgba(2, 70, 2, 0.822);
+    font: normal 15pt;
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+}
+section{
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+}
+div {
+    display: grid;
+    place-items: center;
+}
+footer{
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}

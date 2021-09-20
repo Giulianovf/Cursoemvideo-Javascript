@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background: rgb(186, 189, 56);
+            color: blanchedalmond;
+            font: normal 18pt arial;
+        }
+        button{
+            background-color: rgb(188, 143, 143);
+            color: rgb(255, 250, 250);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com o DOM</h1>
+    <button id = 'button1'>click here</button>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        //window.document.write('está escrito assim:' + p1.innerText)        
+        p1.style.color = 'olive'
+        corpo.style.background = 'golden'
+        //document.write(p1.innerHTML)
+        //var d = write.document.getElementById('msg')
+        //window.document.getElementById('msg').innerText = "olá!"
+        /*var d = window. document.getElementsByName('msg')[0]
+        d.innerText = 'olá!' */
+        var d = window.document.querySelector('div#msg')//# id #, class .
+        d.style.color = 'blue'
+        let button1 = document.getElementById('button1');
+            button1.addEventListener('click', () => {
+                button1.textContent = 'clicked!';
+            });
+            
+
+    </script>
+</body>
+</html>

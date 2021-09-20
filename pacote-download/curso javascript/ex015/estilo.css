@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0px;
+   
+    
+}
+
+header{
+   text-shadow: 3px 3px 5px rgba(255,255,255,0.4);
+}
+
+
+
+section {
+    border-radius: 1cm;
+    text-align: center;
+    background: cornsilk;
+    box-shadow: 0 0 10px rgb(75, 65, 65);
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    width: 500px;
+    margin: auto;
+
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    
+}
+footer{
+    font: italic;
+}
